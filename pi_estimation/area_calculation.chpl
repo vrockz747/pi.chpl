@@ -7,7 +7,7 @@ proc calculateArea(inside) {
 var partialSum: real = 0.0;
 var i: int = inside; // i is the index of current rectangle 
     do {
-    partialSum += sqrt( (2*i*width) - ((i*width)**2) ) * width;  // area of one rectangle =  (leanght * width)
+    partialSum += sqrt( (2*i*width) - ((i*width)**2) ) * width;  // area of one rectangle =  (length * width)
     i += numThreads;
     }
     while (i < numRect);
