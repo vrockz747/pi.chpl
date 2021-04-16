@@ -1,5 +1,4 @@
 /*
-
 Explaination:
 
 The area of a circle is given by - pi * (r^2)
@@ -7,9 +6,7 @@ Now for a circle of radius = 1, the area becomes - pi
 
 The program "area_calculation.chpl" calculates the area of the semi-circle, by summing up the area of large number(numRect) of thin rectangles 
 and then multiplying the result(totalSum) with 2.
-
 */
-
 
 const numRect = 1e6; // number of rectangles, higher number will result in more precision
 const width = 2.0 / numRect; // rectangle width = (diameter / number of rectangles)
