@@ -11,12 +11,14 @@ Now consider the area of the figures only in the first quadrant,
 if we select any random point inside the square region, 
 the probability of the point to fall inside the circular region = (area of circle / area of square)
 
-area of circle = pi * (r^2) / 4 (since only the first quad is considered)
+area of circle = ( pi * (r^2) / 4 )   (since only the first quad is considered)
 area of sq = (r^2) (since only the first quad is considered)
 
-therefore, probability  = pi/4
+therefore, probability  = pi / 4
 
-also, by taking random points; probability = (number of points inside circle) / (number of points inside the sq) --------equation(1)
+also, by taking random points; probability = (number of points inside circle) / (number of points inside the square) --------equation(1)
 
 therefore, pi = 4 * equation(1)
+
+A more precise value can be obtained by taking the mean of 10 or more results obtained from the program.
 
