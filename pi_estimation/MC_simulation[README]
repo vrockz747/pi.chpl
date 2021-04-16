@@ -5,7 +5,7 @@ A Monte Carlo simulation is a model used to predict the probability of different
 
 The program "MC_simulation" uses this method to estimate the value of - pi
 
-Lets consider a circle of center (0,0) with radius = 'r', and a square with side length = '2r' and center at (0,0) and one vertex at (r,r) 
+Lets consider a circle with center (0,0) with radius = 'r', and a square with side length = '2r' and center at (0,0) and one vertex at (r,r) 
 
 Now consider the area of the figures only in the first quadrant,
 if we select any random point inside the square region, 
